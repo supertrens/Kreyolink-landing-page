@@ -27,27 +27,27 @@ const features = [
 ];
 
 export default function DownloadCTA() {
-  const [formStatus, setFormStatus] = useState<
-    "idle" | "submitting" | "success" | "error"
-  >("idle");
-  const [errorMessage, setErrorMessage] = useState("");
+  // const [formStatus, setFormStatus] = useState<
+  //   "idle" | "submitting" | "success" | "error"
+  // >("idle");
+  // const [errorMessage, setErrorMessage] = useState("");
 
-  async function handleSubmit(formData: FormData) {
-    setFormStatus("submitting");
+  // // async function handleSubmit(formData: FormData) {
+  // //   setFormStatus("submitting");
 
-    try {
-      // const result = await addToWaitlist(formData);
-      // if (result.success) {
-      //   setFormStatus("success");
-      // } else {
-      //   setFormStatus("error");
-      //   setErrorMessage(result.error || "Something went wrong");
-      // }
-    } catch (error) {
-      setFormStatus("error");
-      setErrorMessage("Failed to submit form");
-    }
-  }
+  // //   try {
+  // //     // const result = await addToWaitlist(formData);
+  // //     // if (result.success) {
+  // //     //   setFormStatus("success");
+  // //     // } else {
+  // //     //   setFormStatus("error");
+  // //     //   setErrorMessage(result.error || "Something went wrong");
+  // //     // }
+  // //   } catch (error) {
+  // //     setFormStatus("error");
+  // //     setErrorMessage("Failed to submit form");
+  // //   }
+  // // }
 
   return (
     <div className="w-full bg-white">
@@ -100,10 +100,7 @@ export default function DownloadCTA() {
                   exclusive early access benefits!
                 </p>
 
-                <form
-                  action={handleSubmit}
-                  className="grid sm:grid-cols-2 gap-6"
-                >
+                <form action={() => {}} className="grid sm:grid-cols-2 gap-6">
                   <div>
                     <label
                       htmlFor="full-name"
