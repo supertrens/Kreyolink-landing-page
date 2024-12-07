@@ -13,20 +13,20 @@ const footerLinks = {
   platform: [
     { label: "Android App", href: "#" },
     { label: "iOS Coming Soon", href: "#" },
-    { label: "Business Portal", href: "#" },
-    { label: "Event Organizers", href: "#" },
   ],
   company: [
-    { label: "About KreyoLink", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Press Kit", href: "#" },
-    { label: "Contact Us", href: "#" },
+    { label: "About KreyoLink", href: "/about" },
+    // { label: "Careers", href: "/careers" },
+    // { label: "Press Kit", href: "/press" },
+    { label: "Contact Us", href: "/contact" },
   ],
+
   legal: [
-    { label: "Help Center", href: "#" },
-    { label: "Community Guidelines", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Privacy Policy", href: "#" },
+    { label: "Help Center", href: "/help" },
+    { label: "Community Guidelines", href: "/community-guidelines" },
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Account Deletion", href: "/account-deletion" },
   ],
 };
 
