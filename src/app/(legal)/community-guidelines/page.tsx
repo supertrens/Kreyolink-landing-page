@@ -38,7 +38,7 @@ export default function CommunityGuidelinesPage() {
               <li>Positive representations of Haitian culture</li>
             </ul>
 
-            <h3 className="font-bold mb-4">DON'T Share:</h3>
+            <h3 className="font-bold mb-4">DON&apos;T Share:</h3>
             <ul className="list-disc pl-6 text-zinc-600">
               <li>Hate speech or discrimination</li>
               <li>False or misleading information</li>

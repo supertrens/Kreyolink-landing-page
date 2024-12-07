@@ -8,8 +8,8 @@ export default function AboutPage() {
             Connecting the Haitian Diaspora
           </h1>
           <p className="text-xl text-zinc-600 max-w-3xl mx-auto">
-            KreyoLink is more than a platform - it's a bridge connecting Haitian
-            communities worldwide, fostering cultural preservation, and
+            KreyoLink is more than a platform - it&apos;s a bridge connecting
+            Haitian communities worldwide, fostering cultural preservation, and
             empowering economic growth.
           </p>
         </div>

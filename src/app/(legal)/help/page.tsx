@@ -8,26 +8,38 @@ export default function HelpCenterPage() {
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <div className="bg-[#E6F4FF] p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-zinc-900 mb-4">Quick Support</h2>
+            <h2 className="text-2xl font-bold text-zinc-900 mb-4">
+              Quick Support
+            </h2>
             <p className="text-zinc-600 mb-4">Need immediate assistance?</p>
-            <a href="mailto:support@kreyolink.com" 
-              className="text-[#6366f1] hover:text-[#4F46E5] font-medium">
+            <a
+              href="mailto:support@kreyolink.com"
+              className="text-[#6366f1] hover:text-[#4F46E5] font-medium"
+            >
               Contact Support →
             </a>
           </div>
 
           <div className="bg-[#E6F4FF] p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-zinc-900 mb-4">Business Support</h2>
-            <p className="text-zinc-600 mb-4">Questions about your business listing?</p>
-            <a href="mailto:business@kreyolink.com" 
-              className="text-[#6366f1] hover:text-[#4F46E5] font-medium">
+            <h2 className="text-2xl font-bold text-zinc-900 mb-4">
+              Business Support
+            </h2>
+            <p className="text-zinc-600 mb-4">
+              Questions about your business listing?
+            </p>
+            <a
+              href="mailto:business@kreyolink.com"
+              className="text-[#6366f1] hover:text-[#4F46E5] font-medium"
+            >
               Business Support →
             </a>
           </div>
         </div>
-        
+
         <div className="prose prose-lg max-w-none">
-          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">Getting Started</h2>
+          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">
+            Getting Started
+          </h2>
           <div className="bg-gray-50 p-6 rounded-lg mb-8">
             <ol className="list-decimal pl-6 space-y-4 text-zinc-600">
               <li>Download the KreyoLink app</li>
@@ -37,7 +49,9 @@ export default function HelpCenterPage() {
             </ol>
           </div>
 
-          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">Account Management</h2>
+          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">
+            Account Management
+          </h2>
           <div className="space-y-6">
             <details className="group">
               <summary className="text-lg font-medium text-zinc-900 cursor-pointer">
@@ -67,7 +81,9 @@ export default function HelpCenterPage() {
             </details>
           </div>
 
-          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">Business Features</h2>
+          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">
+            Business Features
+          </h2>
           <div className="space-y-6">
             <details className="group">
               <summary className="text-lg font-medium text-zinc-900 cursor-pointer">
@@ -100,7 +116,9 @@ export default function HelpCenterPage() {
             </details>
           </div>
 
-          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">Privacy & Security</h2>
+          <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">
+            Privacy & Security
+          </h2>
           <div className="space-y-6">
             <details className="group">
               <summary className="text-lg font-medium text-zinc-900 cursor-pointer">
@@ -109,7 +127,7 @@ export default function HelpCenterPage() {
               <div className="mt-4 text-zinc-600">
                 <p>Adjust your privacy settings:</p>
                 <ul className="list-disc pl-6 mt-2">
-                  <li>Go to Settings > Privacy</li>
+                  <li>Go to Settings - Privacy</li>
                   <li>Choose between Public, Friends, or Private</li>
                   <li>Set default audience for new posts</li>
                 </ul>
@@ -118,11 +136,16 @@ export default function HelpCenterPage() {
           </div>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-12">
-            <h3 className="text-lg font-bold text-yellow-800 mb-2">Need More Help?</h3>
+            <h3 className="text-lg font-bold text-yellow-800 mb-2">
+              Need More Help?
+            </h3>
             <p className="text-yellow-700">
-              Our support team is available in Haitian Creole, French, and English. 
-              Contact us at{' '}
-              <a href="mailto:support@kreyolink.com" className="text-[#6366f1] hover:text-[#4F46E5]">
+              Our support team is available in Haitian Creole, French, and
+              English. Contact us at{" "}
+              <a
+                href="mailto:support@kreyolink.com"
+                className="text-[#6366f1] hover:text-[#4F46E5]"
+              >
                 support@kreyolink.com
               </a>
             </p>

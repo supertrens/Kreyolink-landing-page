@@ -13,9 +13,9 @@ export default function TermsPage() {
             1. Agreement to Terms
           </h2>
           <p className="text-zinc-600 mb-6">
-            By accessing and using KreyoLink's services, you agree to be bound
-            by these Terms of Service. If you disagree with any part of these
-            terms, you may not access our services.
+            By accessing and using KreyoLink&apos;s services, you agree to be
+            bound by these Terms of Service. If you disagree with any part of
+            these terms, you may not access our services.
           </p>
 
           <h2 className="text-2xl font-bold text-zinc-900 mt-12 mb-4">
