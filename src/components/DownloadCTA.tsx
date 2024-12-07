@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Phone, Shield, Globe, RefreshCw } from "lucide-react";
-// import { addToWaitlist } from "@/app/actions/waitlist";
 
 const features = [
   {
