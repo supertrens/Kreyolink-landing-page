@@ -1,3 +1,6 @@
+"use client";
+import Image from "next/image";
+
 export default function ContactPage() {
   return (
     <div className="w-full bg-white">
@@ -133,7 +136,7 @@ export default function ContactPage() {
                 <br />
                 United States
               </p>
-              <img
+              <Image
                 src="/api/placeholder/400/200"
                 alt="Office location map"
                 className="w-full rounded-lg"
