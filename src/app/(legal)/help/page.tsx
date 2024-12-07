@@ -92,7 +92,7 @@ export default function HelpCenterPage() {
               <div className="mt-4 text-zinc-600">
                 <ol className="list-decimal pl-6 space-y-2">
                   <li>Go to Business section</li>
-                  <li>Select "Create Business Profile"</li>
+                  <li>Select Create Business Profile</li>
                   <li>Fill in your business details</li>
                   <li>Add photos and descriptions</li>
                   <li>Submit for verification</li>
@@ -107,7 +107,7 @@ export default function HelpCenterPage() {
               <div className="mt-4 text-zinc-600">
                 <ol className="list-decimal pl-6 space-y-2">
                   <li>Go to Events tab</li>
-                  <li>Click "Create Event"</li>
+                  <li>Click Create Event</li>
                   <li>Fill in event details</li>
                   <li>Add location and time</li>
                   <li>Publish your event</li>
@@ -141,7 +141,7 @@ export default function HelpCenterPage() {
             </h3>
             <p className="text-yellow-700">
               Our support team is available in Haitian Creole, French, and
-              English. Contact us at{" "}
+              English. Contact us at
               <a
                 href="mailto:support@kreyolink.com"
                 className="text-[#6366f1] hover:text-[#4F46E5]"
