@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Image from "next/image";
 import { Phone, Shield, Globe, RefreshCw } from "lucide-react";
 
@@ -135,26 +134,27 @@ export default function DownloadCTA() {
                   </div>
                   <button
                     type="submit"
-                    disabled={formStatus === "submitting"}
+                    // disabled={formStatus === "submitting"}
                     className="sm:col-span-2 bg-white text-[#6366f1] hover:bg-white/90 disabled:bg-white/70 font-semibold py-3 px-6 rounded-lg transition-colors"
                   >
-                    {formStatus === "submitting"
+                    Notify Me
+                    {/* {formStatus === "submitting"
                       ? "Submitting..."
-                      : "Notify Me"}
+                      : "Notify Me"} */}
                   </button>
 
                   {/* Form Status Messages */}
-                  {formStatus === "success" && (
+                  {/* {formStatus === "success" && (
                     <div className="sm:col-span-2 text-green-300 text-center">
                       Thanks for joining the waitlist! We'll notify you when iOS
                       launches.
                     </div>
-                  )}
-                  {formStatus === "error" && (
+                  )} */}
+                  {/* {formStatus === "error" && (
                     <div className="sm:col-span-2 text-red-300 text-center">
                       {errorMessage}
                     </div>
-                  )}
+                  )} */}
                 </form>
               </div>
             </div>
