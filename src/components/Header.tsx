@@ -58,10 +58,10 @@ export default function Header() {
           >
             Download Now
           </Link>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <span className="text-sm">🇺🇸</span>
             <span className="text-sm">🇫🇷</span>
-          </div>
+          </div> */}
         </nav>
 
         {/* Mobile Menu Button */}

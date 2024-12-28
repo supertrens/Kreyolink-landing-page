@@ -9,7 +9,7 @@ export default function Home() {
     <main className="overflow-x-hidden">
       <Hero />
       <Features />
-      <Directory />
+      {/* <Directory /> */}
       <Testimonials />
       <DownloadCTA />
     </main>
