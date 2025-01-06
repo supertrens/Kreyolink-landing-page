@@ -90,7 +90,7 @@ export default function DownloadCTA() {
                   </a>
 
                   <a
-                    href="https://apps.apple.com/us/app/kreyolink/id6739236547"
+                    href="https://play.google.com/store/apps/details?id=com.kreyolink.api"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block transition-transform hover:-translate-y-1"
